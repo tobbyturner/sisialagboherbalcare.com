@@ -1,0 +1,44 @@
+body{
+	background-color: white ;
+	background-position: center;
+
+}
+p{
+	text-align: center;
+	color: white;
+	font-size: 400%;
+	width: 1700px;
+	padding: 20px;
+	background-color: blue;
+	
+
+	}
+	.menu-bar{
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	font-family: sans-serif;
+	list-style: none;
+	background-color: blue;
+	
+}
+.menu-bar ul li{
+width: 300px;
+margin: 5px;
+padding: 5px;
+
+
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: white;
+}
+.active, .menu-bar ul li:hover
+{
+	background: black;
+}
+.checkbtn{
+	font-size: 30px;
+	color: blue;
+}
